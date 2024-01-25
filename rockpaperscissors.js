@@ -64,8 +64,8 @@ function rockPaperScissors(userMove) {
 
   document.querySelector(".js-result").innerHTML = result;
   document.querySelector(".js-moves").innerHTML = `You
-  <img class="move-icon" src="../images/${userMove}-emoji.png" />
-  <img class="move-icon" src="../images/${computerMove}-emoji.png" />
+  <img class="move-icon" src="images/${userMove}-emoji.png" />
+  <img class="move-icon" src="images/${computerMove}-emoji.png" />
   Computer`;
   updateScoreElement();
 }
